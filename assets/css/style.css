@@ -87,7 +87,7 @@ a {
 }
 
 .link-dif-site::before {
-    background-image: url(--bgi);
+    background-image: var(--bgi);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
