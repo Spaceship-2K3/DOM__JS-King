@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+.btn-random {
+    margin: 100px auto 0;
+    width: 300px;
+    height: 70px;
+    background-color: #a05151;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: center;
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-random i {
+    font-size: 1.8rem;
+    margin-left: 8px;
+}
+.btn-random:hover {
+    opacity: 0.9;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-container {
+    background-color: orange;
+    width: 300px;
+    height: 150px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: solid black 2px;
+    border-radius: 10px;
+}
