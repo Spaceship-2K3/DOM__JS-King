@@ -23,6 +23,7 @@ function generateColor() {
         item.innerHTML = `#${colorItem}`;
     });
 }
+generateColor();
 
 // ! principles : random numbers from 0->16 and cut characters from chars to create colorCode
 function randomColor() {

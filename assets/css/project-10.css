@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bgi10.avif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;
+}
+
+.container {
+    padding: 100px;
+}
+
+h1 {
+    font-size: 50px;
+}
+p {
+    color: grey;
+}
+p:nth-child(4) {
+    background-color: transparent;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 10px;
+    }
+}
